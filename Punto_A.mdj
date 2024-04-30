@@ -473,23 +473,6 @@
 										},
 										{
 											"_type": "UMLOperationView",
-											"_id": "AAAAAAGPB7hqzNOw6Mw=",
-											"_parent": {
-												"$ref": "AAAAAAGPB05Rc941eVs="
-											},
-											"model": {
-												"$ref": "AAAAAAGPB7hqw9Ote9s="
-											},
-											"font": "Arial;13;0",
-											"left": 693,
-											"top": 512,
-											"width": 251.39599609375,
-											"height": 13,
-											"text": "+comenzar(): void",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
 											"_id": "AAAAAAGPIiYmNBpTQoM=",
 											"_parent": {
 												"$ref": "AAAAAAGPB05Rc941eVs="
@@ -535,7 +518,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 693,
-											"top": 527,
+											"top": 512,
 											"width": 251.39599609375,
 											"height": 13,
 											"text": "+agregarCuidador(cuidador: Persona): void",
@@ -552,7 +535,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 693,
-											"top": 542,
+											"top": 527,
 											"width": 251.39599609375,
 											"height": 13,
 											"text": "+quitarCuidador(cuidador: Persona): void",
@@ -569,7 +552,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 693,
-											"top": 557,
+											"top": 542,
 											"width": 251.39599609375,
 											"height": 13,
 											"text": "+notificarCuidadores(mensaje: String): void",
@@ -580,7 +563,7 @@
 									"left": 688,
 									"top": 492,
 									"width": 261.39599609375,
-									"height": 83
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -620,7 +603,7 @@
 							"left": 688,
 							"top": 384,
 							"width": 260.39599609375,
-							"height": 191,
+							"height": 176,
 							"nameCompartment": {
 								"$ref": "AAAAAAGPB05Rcd4vN9w="
 							},
@@ -2598,11 +2581,11 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"left": 72,
-							"top": 584,
+							"left": 328,
+							"top": 488,
 							"width": 249.18603515625,
 							"height": 56,
-							"text": "espera = new EsperaProgramada()\notraReaccion = new OtraReaccion()\nespera.setSiguienteAccion(otraReaccion)"
+							"text": "espera = new EsperaProgramada()\notraReaccion = new Reaccion()\nespera.setSiguienteAccion(otraReaccion)"
 						},
 						{
 							"_type": "UMLInterfaceView",
@@ -3201,7 +3184,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 834,
-									"top": 608,
+									"top": 601,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3222,7 +3205,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 849,
-									"top": 608,
+									"top": 601,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3243,7 +3226,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 805,
-									"top": 609,
+									"top": 602,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3261,7 +3244,7 @@
 								"$ref": "AAAAAAGPB05Rcd4uE2U="
 							},
 							"lineStyle": 1,
-							"points": "820:576;821:655",
+							"points": "820:561;821:655",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGPG73+IS6tM1k="
@@ -3366,32 +3349,6 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGPG8f8n3FGtqE="
 							}
-						},
-						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAGPJx2AGSsidYU=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"font": "Arial;26;0",
-							"left": 16,
-							"top": 592,
-							"width": 48,
-							"height": 38,
-							"text": "👍"
-						},
-						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAGPJ5qMsfyupKw=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"font": "Times New Roman;13;0",
-							"left": 72,
-							"top": 40,
-							"width": 304,
-							"height": 38,
-							"text": "\"¿Cómo y/o quién llama a ese método? No importa!!!\""
 						},
 						{
 							"_type": "UMLTextView",
@@ -4603,273 +4560,30 @@
 							"text": "Esta clase funciona como adapter para comunicarse con la API “Distance Matrix API”. Esta API tiene la capacidad de calcular el tiempo de viaje entre dos direcciones."
 						},
 						{
-							"_type": "UMLAssociationView",
-							"_id": "AAAAAAGPMBBM1JalsiM=",
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGPMNXkAsI37yY=",
 							"_parent": {
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
-							"model": {
-								"$ref": "AAAAAAGPMBBM05ahP/A="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1JamhrE=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05ahP/A="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 1207,
-									"top": 201,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1JanLIM=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05ahP/A="
-									},
-									"visible": null,
-									"font": "Arial;13;0",
-									"left": 1222,
-									"top": 201,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1Jaoxh8=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05ahP/A="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 1177,
-									"top": 202,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1Japg4Y=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05aixvQ="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 981,
-									"top": 187,
-									"height": 13,
-									"alpha": 0.5235987755982988,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"edgePosition": 2
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1Jaqcxk=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05aixvQ="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 984,
-									"top": 173,
-									"height": 13,
-									"alpha": 0.7853981633974483,
-									"distance": 40,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"edgePosition": 2
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1JarDIk=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05aixvQ="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 977,
-									"top": 214,
-									"height": 13,
-									"alpha": -0.5235987755982988,
-									"distance": 25,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"edgePosition": 2
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1JasDjw=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05ajEdw="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 1207,
-									"top": 392,
-									"height": 13,
-									"alpha": -0.5235987755982988,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									}
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1Jat/Fs=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05ajEdw="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 1220,
-									"top": 389,
-									"height": 13,
-									"alpha": -0.7853981633974483,
-									"distance": 40,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									}
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGPMBBM1JauA2s=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05ajEdw="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 1179,
-									"top": 396,
-									"height": 13,
-									"alpha": 0.5235987755982988,
-									"distance": 25,
-									"hostEdge": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									}
-								},
-								{
-									"_type": "UMLQualifierCompartmentView",
-									"_id": "AAAAAAGPMBBM1JavphM=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05aixvQ="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLQualifierCompartmentView",
-									"_id": "AAAAAAGPMBBM1JawvQo=",
-									"_parent": {
-										"$ref": "AAAAAAGPMBBM1JalsiM="
-									},
-									"model": {
-										"$ref": "AAAAAAGPMBBM05ajEdw="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"width": 10,
-									"height": 10
-								}
-							],
 							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAGPB0lBMd3peGI="
+							"left": 69,
+							"top": 570,
+							"width": 488,
+							"height": 141,
+							"text": "Cuando se comience el viaje, el sistema deberá:\n- calcular el tiempo (= llamado al método)\n- notificar a los cuidadores (= llamado al método)\n- deshabilitar las notificaciones para el transeúnte (=allí se conecta el atributo notificacionesHabilitadas con el método de notificar de Persona)\n- si el transeúnte avisa que llega bien, notifica a los cuidadores y vuelve a habilitar las notificaciones\n- si no hay noticias del transeúnte, se debe realizar la reacción que éste tenga configurada (= llamado al método de activarReaccion)\n"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGPMNXkAsI45Xs=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
-							"tail": {
-								"$ref": "AAAAAAGPCA2ez7zknQo="
-							},
-							"points": "956:208;1192:208;1192:424",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAGPMBBM1JamhrE="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAGPMBBM1JanLIM="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAGPMBBM1Jaoxh8="
-							},
-							"showEndOrder": "hide",
-							"tailRoleNameLabel": {
-								"$ref": "AAAAAAGPMBBM1Japg4Y="
-							},
-							"tailPropertyLabel": {
-								"$ref": "AAAAAAGPMBBM1Jaqcxk="
-							},
-							"tailMultiplicityLabel": {
-								"$ref": "AAAAAAGPMBBM1JarDIk="
-							},
-							"headRoleNameLabel": {
-								"$ref": "AAAAAAGPMBBM1JasDjw="
-							},
-							"headPropertyLabel": {
-								"$ref": "AAAAAAGPMBBM1Jat/Fs="
-							},
-							"headMultiplicityLabel": {
-								"$ref": "AAAAAAGPMBBM1JauA2s="
-							},
-							"tailQualifiersCompartment": {
-								"$ref": "AAAAAAGPMBBM1JavphM="
-							},
-							"headQualifiersCompartment": {
-								"$ref": "AAAAAAGPMBBM1JawvQo="
-							}
+							"font": "Arial;13;0",
+							"left": 68,
+							"top": 728,
+							"width": 489,
+							"height": 53,
+							"text": "Suponemos que el control del tiempo para activar la reacción (sea que se controla el tiempo total del viaje o el tiempo por secciones) lo realiza otra capa. Nosotros le dejamos los tiempos a disposición para que pueda realizarlo."
 						}
 					]
 				},
@@ -5621,25 +5335,6 @@
 										"$ref": "AAAAAAGPB2CPl97S0sw="
 									},
 									"type": "double",
-									"direction": "return"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGPB7hqw9Ote9s=",
-							"_parent": {
-								"$ref": "AAAAAAGPB05Rb94s3DU="
-							},
-							"name": "comenzar",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGPIpBPOxoTH1s=",
-									"_parent": {
-										"$ref": "AAAAAAGPB7hqw9Ote9s="
-									},
-									"type": "void",
 									"direction": "return"
 								}
 							]
